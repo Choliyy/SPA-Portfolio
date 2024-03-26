@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const Projects = () => { 
 
@@ -7,13 +8,15 @@ const Projects = () => {
     <>
     <div> <h1> Projects</h1>
     <div className="card w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <figure><img src="" alt="" /></figure>
   <div className="card-body">
     <h2 className="card-title">
+     
       Knights of JavaScript
       <div className="badge badge-secondary">TKH</div>
     </h2>
-    <p></p>
+    <p>Click here for project link : 
+        <Link to = "https://github.com/Choliyy/KnightsofJava"> Knights of JavaScript GitHub</Link></p>
     <div className="card-actions justify-end">
       <div className="badge badge-outline">JavaScript</div> 
       <div className="badge badge-outline">HTML</div>
