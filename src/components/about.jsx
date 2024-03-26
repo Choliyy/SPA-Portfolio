@@ -5,7 +5,10 @@ const About = () => {
    
     return (
     <>
-    <div> <h2>About Me</h2>
+    <div> <h2>I'm a Full Stack developer.
+         I utilize HTML, CSS, JavaScript, React.
+         I enjoy learing and dicsovering new technologies.
+    </h2>
        
     </div>
    </>
