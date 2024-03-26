@@ -1,19 +1,29 @@
 import React from "react";
-import IMAGES from '../images/images'
+
+
 
 const Home = () => { 
     return ( 
+        <div>
+          <p class="font-serif ..."></p>
+        <div class="flex justify-center ...">
+        <div class="flex flex-col ...">
         <div className="avatar">
-        <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-        <div className="my-4">
-            <img src="/imgs/Beauty pic tim.JPG" />
+        <div className="w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+          <img src='/images/Beautypictim.jpg' />
         </div>
-        {/* <img src={images.image1} alt='Beauty pic tim.jpg'/> */}
-
+      </div>
+        
+        {/* <img src='/images/Beautypictim.jpg' /> */}
+      <div>
+      <div class="pt-4 ...">
+      <p class="font-serif ...">
+        <h2>Welcome to my portfolio!</h2>
+        </p>
         </div>
-     
-      <div><h2>Welcome to my portfolio!</h2></div>
-     
+      </div>
+      </div>
+     </div>
      
      
      
