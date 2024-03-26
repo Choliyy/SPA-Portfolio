@@ -32,6 +32,7 @@ const Projects = () => {
     <div className="card-actions justify-end">
       <div className="badge badge-outline">JavaScript</div> 
       <div className="badge badge-outline">HTML</div>
+      <div className="badge badge-outline">CSS</div>
     </div>
   </div>
 </div>
